@@ -11,10 +11,62 @@
 <body>
     <div><h1>Questionário I</h1><br><h2>Feedback sobre <a href="patos.html">os patos mais bonitos de 2023.</a></h2></div>
     <form>
-       <div> Nome <input type="text" /> </div>
-       <div> Idade <input type="number" /> </div>
-       <div> Email <input type="email" /> </div>
-       
+       <div> Nome  <input type="text" required/> </div>
+       <br>
+       <div> Idade <input type="number" required/> </div>
+       <br>
+       <div> Email <input type="email" required/> </div>
+       <br>
+       <br>
+            
+            <div>
+                <div> <h4> Qual seu nível de entendimento sobre patos? </h4>
+                    <div>
+                        <select>
+                           <option>--</option>
+                           <option>Curioso</option>
+                           <option>Apreciador</option>
+                           <option>Expert</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div> <h4> O que você achou das fotos dos patos? </h4>
+                    <div>
+                        <input type="checkbox" id="qst1" /><label for="qst1">Maravilhosas</label>
+                    </div>
+                    <div> 
+                        <input type="checkbox" id="qst2" /><label for="qst2">Explendidas</label>
+                    </div>
+                    <div>  
+                        <input type="checkbox" id="qst3" /><label for="qst3">Celestiais</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div> <h4> O que você mudaria nas fotos dos patos? </h4>
+                    <div>
+                        <input type="checkbox" id="qst4" /><label for="qst4">Adcionaria mais patos</label>
+                    </div>
+                    <div> 
+                        <input type="checkbox" id="qst5" /><label for="qst5">Adicionaria mais fotos</label>
+                    </div>
+                    <div>  
+                        <input type="checkbox" id="qst6" /><label for="qst6">Patos de roupinhas!!</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div> <h4> Dê sua opinião sobre os patos e suas fotos. </h4>
+                    <div>
+                        <textarea>Observações:</textarea>
+                    </div>
+                </div>
+            </div>
+
+        <br>
        <div><input type="submit" value="Enviar"/></div> 
     </form>
 
